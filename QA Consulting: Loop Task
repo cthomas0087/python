@@ -1,0 +1,22 @@
+n = 1
+while n != 101:
+    if n == 15:
+        break
+    print(n, "\t", n**2)
+    n = n+1
+
+
+
+#user input generates a list from input down to 1 and the square numbers of each of those numbers
+
+n = int(input("Enter a number: "))
+n = (list(range(1, n+1)))
+print(n)
+for i in n:
+  print(i**2, end=" ")
+
+
+
+
+   
+
