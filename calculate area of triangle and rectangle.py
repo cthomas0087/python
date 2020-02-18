@@ -1,9 +1,9 @@
 ##calculate the area of the triangle:
 
-b = float(input("Enter base of triangle: "))
-h = float(input("Enter height of triangle: "))
+a = float(input("Enter base of triangle: "))
+b = float(input("Enter height of triangle: "))
 
-area = (b*h) / 2
+area = a*b/2
 
 print ("The area of the triangle is: ", area)
 
@@ -11,9 +11,9 @@ print ("The area of the triangle is: ", area)
 
 ##calculate the area of a rectangle:
 
-w = float(input("Enter width of rectangle: "))
-h = float(input("Enter height of rectangle: "))
+a = float(input("Enter width of rectangle: "))
+b = float(input("Enter height of rectangle: "))
 
-area = w*h
+area = a+b*2
 
 print("The area of the rectangle is: ", area)
