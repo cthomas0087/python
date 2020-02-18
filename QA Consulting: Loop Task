@@ -1,4 +1,7 @@
-#create a loop of 1 - 100, printed alongside the square number of each, the list must stop before the square number reaches 200:
+#create a loop of 1 - 100
+#printed alongside the square number of each
+#the list must stop before the square number reaches 200
+
 a = 1
 b = a
 while a != 101:
@@ -9,7 +12,8 @@ while a != 101:
     b=a**2
 
 
-#from the user input, generate a list from that number down to 0, with a corresponding list of square numbers:
+#from the user input, generate a list from that number down to 0
+#print a corresponding list of square numbers
 
 n = int(input("Enter a number: "))
 n = (list(range(0, n+1)))
